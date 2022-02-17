@@ -9,8 +9,8 @@ def save_items(filepath,data): # create json
 
 def load_json(filepath): # read from that json
     with open(filepath,"r") as f:
-        json.load(f)
-
+        data =json.load(f)
+        return data #json as python dictionary
 
 if len(sys.argv)==2:
   command = sys.argv[1]
