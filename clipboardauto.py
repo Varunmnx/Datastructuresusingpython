@@ -3,11 +3,14 @@ from tkinter import W
 import clipboard
 import json
 
-def save_items(filepath,data):
+def save_items(filepath,data): # create json
     with open(filepath,"w") as f:
      json.dump(data,f)
 
-save_items('test.json',{"key":"value"})
+def load_json(filepath): # read from that json
+    with open(filepath,"r") as f:
+        json.load(f)
+
 
 if len(sys.argv)==2:
   command = sys.argv[1]
