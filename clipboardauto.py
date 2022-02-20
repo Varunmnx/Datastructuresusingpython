@@ -3,7 +3,7 @@ import clipboard
 import json
 
 
-SAVED_DATA = "clipboard.json"
+SAVED_DATA = "clipboard22.json"
 
 
 def save_data(filepath, data):
