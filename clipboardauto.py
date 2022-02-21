@@ -14,7 +14,7 @@ def save_data(filepath, data):
 def load_data(filepath):
     try:
         with open(filepath, "r") as f:
-            data = json.load(f)
+            data = json.load(f) # return dictionary of key value pairs
             return data
     except:
         return {}
@@ -43,3 +43,8 @@ if len(sys.argv) == 2:
 else:
     print("Please pass exactly one command.")
 
+ 
+
+# def save_items(filepath,data):
+#     with open(filepath,"w") as f:
+#         json.dump(data,f)
