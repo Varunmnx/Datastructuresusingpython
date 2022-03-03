@@ -1,0 +1,9 @@
+def check(x):
+ s = str(x)
+ print(s[::-1])
+ if (s[::-1] == s):
+    return print("True")
+ return print("False")
+if __name__=="__main__":
+    x = int(input())
+    check(x)
