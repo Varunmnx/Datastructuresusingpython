@@ -25,3 +25,31 @@ list.headval.nextval = e2
 e2.nextval = e3
 
 list.listprint()
+
+
+
+
+
+
+
+
+# class Node:
+#    def __init__(self,data) :
+#       self.data = data
+#       self.pointingtonode = None
+
+# class Linkedlist:
+#    def __init__(self) :
+#       self.headvalue =None
+      
+
+# if __name__=="__main__":
+#    list = Linkedlist()
+#    list.headvalue = Node("mon")
+#    e2 = Node("tue")
+#    e3 = Node("wed")
+#    e4 =Node("thur")
+#    list.headvalue.pointingtonode = e2
+#    e2.pointingtonode =e3
+#    e3.pointingtonode = e4
+   
