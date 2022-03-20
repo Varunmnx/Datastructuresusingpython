@@ -72,3 +72,15 @@ def firstBadVersion(self, n):
                 #             return right = mid-1                                
                 #     else:
                 #         return right = mid+1
+                # left = 1
+                # right = n
+                # mid =0
+                # while left <right :
+                #     mid = (left +right) //2
+                #     if value == arr[mid]:
+                #         if not value ==arr[mid-1] :
+                #             return mid 
+                #         else:
+                #             return left = mid -1
+                #     else:
+                #         return left = mid +1

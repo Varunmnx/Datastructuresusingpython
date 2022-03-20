@@ -38,8 +38,31 @@ if __name__ == "__main__":
 
 
 
+# class Hash:
+#     def __init__(self) :
+#         self.size = 1000
+#         self.table = [None] *self.size
+#     def calculate(self,key):
+#             return key % self.size
+
+#     def add(self,key):
+#         p = self.calculate(key)
+#         if self.table[p] ==None:
+#             self.table[p] = key
+#         else:
+#             self.table[p].append(key)
+#     def remove(self,key):
+#         p =self.calculate(key)
+#         if self.table[p] !=None:
+#             while key in self.table[p]:
+#                 self.table[p].remove(key)
 
 
+                
+
+
+             
+        
 
 
 
