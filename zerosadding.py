@@ -1,5 +1,5 @@
 class Solution:
-    def moveZeroes(self, nums: List[int]) -> None:
+    def moveZeroes(self, nums) :
         """
         Do not return anything, modify nums in-place instead.
         """
@@ -10,4 +10,9 @@ class Solution:
                 nums.remove(i)
                 nums.append(i)
         print(nums)        
-            
+
+
+if __name__ =="__main__":
+    s = Solution()
+    nums = [1,2,0,3,40,5,0,0]
+    s.moveZeroes(nums)            
