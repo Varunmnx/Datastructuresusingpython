@@ -16,3 +16,4 @@ if __name__ =="__main__":
     s = Solution()
     nums = [1,2,0,3,40,5,0,0]
     s.moveZeroes(nums)            
+    #vv
