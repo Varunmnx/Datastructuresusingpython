@@ -8,7 +8,7 @@ def make_list(elements):
    for element in elements[1:]:
       ptr = head
       while ptr.next:
-         ptr = ptr.next
+         ptr = ptr.next 
       ptr.next = ListNode(element) # next element in the list 
    return head
 def print_list(head):
