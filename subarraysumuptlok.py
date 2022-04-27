@@ -8,6 +8,6 @@ for i in s:
     sp+= i
     diff = sp-k
     if diff in d:
-        anw+=1
+        anw+= d[diff]
     d[sp] = d.get(sp,0)+1
 print(anw)     
