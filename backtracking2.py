@@ -4,7 +4,6 @@ n =3
 
 def backTrack(leftCount, rightCount):
     if leftCount > n:
-
         return
 
     if rightCount > leftCount:
