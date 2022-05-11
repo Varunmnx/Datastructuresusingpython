@@ -1,6 +1,3 @@
-from ast import literal_eval
-
-
 l=[1,2,4,5]
 l= "".join(map(str,l))
 # print(l)
