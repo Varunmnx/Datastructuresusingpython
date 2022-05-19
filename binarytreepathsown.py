@@ -8,6 +8,7 @@ class Tree:
         self.right = None
     def inorderlist(self,Root):
         def dfs(Root,p=[],result=[]):
+            # this avoids the error 
             if not Root:
                 return
             p.append(Root.val)
