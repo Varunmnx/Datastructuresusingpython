@@ -13,6 +13,7 @@ class Tree:
             p.append(Root.val)
             if not Root.left and not Root.right:
                     result.append('->'.join(map(str,p)))
+         
             dfs(Root.left)
             dfs(Root.right) 
             p.pop()
