@@ -21,7 +21,7 @@ class Btree:
     def maximum_depth(self,root):
                  if not root:
                      return 0
-                 return (1+ max(self.maximum_depth(root.left),self.maximum_depth(root.right)))      
+                 return (1+ max(self.maximum_depth(root.left),self.maximum_depth(root.right)))       # one function returns 0+1 first
 
 
 if __name__ =="__main__":
@@ -33,3 +33,13 @@ if __name__ =="__main__":
    Root.insert(26)
    Root.insert(18)
    print(Root.maximum_depth(Root))
+
+   """
+      10
+     / \
+    9    30
+   /     /\     
+  8     4
+ /
+7 
+   """
