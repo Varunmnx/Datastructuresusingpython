@@ -35,11 +35,11 @@ if __name__ =="__main__":
    print(Root.maximum_depth(Root))
 
    """
-      10
+      10 counts = 3
      / \
-    9    30
+    9    30 counts=2
    /     /\     
-  8     4
+  8     4 counts =1
  /
 7 
    """
