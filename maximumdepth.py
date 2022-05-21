@@ -32,4 +32,4 @@ if __name__ =="__main__":
    Root.insert(55)
    Root.insert(26)
    Root.insert(18)
-   Root.maximum_depth(Root)
+   print(Root.maximum_depth(Root))
