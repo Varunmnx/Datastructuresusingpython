@@ -5,7 +5,9 @@
 hi this is a daily algo and problem solving using python
 im not embarressed to share my progress even its silly :)
 ```
-[link](https://dev.to/search?q=django%20drawbacks) is a useful and much advanced place to find `persiverance`
+[link](https://dev.to) This is a great community use it if you want to. This is  how i started as a toddler it helped me and im not greedy enough to hide my resources`ideas`
+
+
 ****
 *code*
 
